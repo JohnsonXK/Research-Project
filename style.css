@@ -1,5 +1,5 @@
 body {
-    background: url('bg.gif');
+    background: url('./assets/images/bg.gif');
     background-size: cover;
     display: flex;
     justify-content: center;
