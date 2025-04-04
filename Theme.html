@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Choose a theme for our apps:></title>
+  <title>Theme Switcher</title>
   <style>
     html, body {
       margin: 0;
@@ -46,30 +46,6 @@
     }
 
     /* Themes */
-    .theme-default {
-      background: linear-gradient(to bottom, white, #f0f0f0);
-      color: black;
-    }
-    .theme-dark {
-      background: linear-gradient(to bottom, #121212, #2c2c2c);
-      color: white;
-    }
-    .theme-sky {
-      background: linear-gradient(to bottom, #87ceeb, #009acd);
-      color: #003366;
-    }
-    .theme-forest {
-      background: linear-gradient(to bottom, #2e8b57, #006400);
-      color: #f5f5dc;
-    }
-    .theme-sunset {
-      background: linear-gradient(to bottom, #ffcccb, #ff4500);
-      color: #800000;
-    }
-    .theme-ocean {
-      background: linear-gradient(to bottom, #1e3f66, #0f2027);
-      color: #cce7ff;
-    }
     .theme-lavender {
       background: linear-gradient(to bottom, #e6e6fa, #dda0dd);
       color: #4b0082;
@@ -78,80 +54,19 @@
       background: linear-gradient(to bottom, #191970, #000000);
       color: #f0f8ff;
     }
-    .theme-rose {
-      background: linear-gradient(to bottom, #ffe4e1, #ff69b4);
-      color: #8b0000;
-    }
-    .theme-gold {
-      background: linear-gradient(to bottom, #fff8dc, #ffd700);
-      color: #b8860b;
-    }
-    .theme-peach {
-      background: linear-gradient(to bottom, #ffe5b4, #ff9966);
-      color: #994d00;
-    }
-    .theme-ice {
-      background: linear-gradient(to bottom, #e0ffff, #00ced1);
-      color: #005f6b;
-    }
-    .theme-neon {
-      background: linear-gradient(to bottom, #39ff14, #00ffea);
-      color: #0a0a0a;
-    }
-    .theme-blush {
-      background: linear-gradient(to bottom, #f8cdda, #e75480);
-      color: #5e0035;
-    }
-    .theme-space {
-      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
-      color: #ffffff;
-    }
-    .theme-flame {
-      background: linear-gradient(to bottom, #ff6a00, #ff0000);
-      color: #ffffff;
-    }
-    .theme-icecream {
-      background: linear-gradient(to bottom, #fddde6, #fcb1c3);
-      color: #663366;
-    }
-    .theme-grape {
-      background: linear-gradient(to bottom, #6a0572, #ab83a1);
-      color: #ffffff;
-    }
-    .theme-bamboo {
-      background: linear-gradient(to bottom, #d0f0c0, #a4c639);
-      color: #3b5323;
-    }
     .theme-coffee {
       background: linear-gradient(to bottom, #cbb994, #6f4e37);
       color: #3e2723;
     }
   </style>
 </head>
-<body class="theme-default">
+<body class="theme-lavender">
   <div class="container">
     <h1>Theme Switcher Demo</h1>
     <p>Choose a theme from the dropdown to change the UI color theme.</p>
     <select class="theme-selector" onchange="changeTheme(this.value)">
-      <option value="theme-default">Default</option>
-      <option value="theme-dark">Dark</option>
-      <option value="theme-sky">Sky</option>
-      <option value="theme-forest">Forest</option>
-      <option value="theme-sunset">Sunset</option>
-      <option value="theme-ocean">Ocean</option>
       <option value="theme-lavender">Lavender</option>
       <option value="theme-midnight">Midnight</option>
-      <option value="theme-rose">Rose</option>
-      <option value="theme-gold">Gold</option>
-      <option value="theme-peach">Peach</option>
-      <option value="theme-ice">Ice</option>
-      <option value="theme-neon">Neon</option>
-      <option value="theme-blush">Blush</option>
-      <option value="theme-space">Space</option>
-      <option value="theme-flame">Flame</option>
-      <option value="theme-icecream">Ice Cream</option>
-      <option value="theme-grape">Grape</option>
-      <option value="theme-bamboo">Bamboo</option>
       <option value="theme-coffee">Coffee</option>
     </select>
 
@@ -168,3 +83,4 @@
   </script>
 </body>
 </html>
+
